@@ -1,7 +1,7 @@
 
 # 📚 Bootcamp de Back-End com Python - DIO/Luizalabs
 
-Este repositório documenta meu progresso  Python. 
+Este repositório documenta o meu progresso em **Python**. 
 O conteúdo de cada atividade/exercício é da minha evolução ao longo do curso, exercícios e aprendizados realizados ao longo da trilha, com foco em prática, integração e automação de sistemas.
 
 
