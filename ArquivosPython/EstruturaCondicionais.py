@@ -29,7 +29,7 @@ conta_especial = True
 saldo = 2000
 saque = 1600
 cheque_especial = 450
-
+   
 if conta_normal:
 
     if saldo >= saque:
@@ -51,3 +51,11 @@ elif conta_especial:
 
 else:
     print('Sistema não reconheceu seu tipo de conta, entre em contato com o seu gerente!')
+
+#IF ternário
+saldo = 2000
+saque = 3000
+
+status = 'Sucesso' if saldo >= saque else 'Falha'
+
+print(f'{status} ao realizar o saque!')
