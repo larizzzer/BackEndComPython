@@ -20,3 +20,4 @@ def depositar(valor):
         
 
 depositar(300)
+sacar(1200)
