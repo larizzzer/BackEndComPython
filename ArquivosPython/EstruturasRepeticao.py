@@ -12,3 +12,15 @@ else: #não é muito comum utilizar ele no dia a dia
 for numero in range(0, 91, 9): 
     print(numero)
 
+
+opcao = -1
+
+while opcao != 0: #executa várias e várias vezes sem um número limite até você digitar 0
+    opcao = int(input('[1] Sacar \n[2] Extrato \n[0] Sair \n: '))
+
+    if opcao == 1:
+        print('Sacando o dinheiro....')
+    elif opcao == 2:
+        print('Imprimindo o extrato da sua conta bancária...')
+else: #não é muito utilizado, assim como no for
+    print('Obrigado por usar nosso sistema bancário, até logo!')
