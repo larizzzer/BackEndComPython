@@ -24,3 +24,14 @@ while opcao != 0: #executa várias e várias vezes sem um número limite até vo
         print('Imprimindo o extrato da sua conta bancária...')
 else: #não é muito utilizado, assim como no for
     print('Obrigado por usar nosso sistema bancário, até logo!')
+
+
+numero = -1
+
+while True: 
+    numero = int(input('Informe um número: '))
+
+    if numero == 10:
+        break #para o programa caso o 10 seja digitado
+
+    print(numero)
